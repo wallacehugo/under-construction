@@ -1,0 +1,58 @@
+/* CSS Document */
+
+a:link, a:visited {
+  color: rgb(87, 87, 87);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  div {
+    padding-left: 20rem;
+    padding-top: 5rem;
+  }
+
+div {
+    font-family: "Baskervville", serif;
+    color: rgb(87, 87, 87);
+}
+
+p1 {
+    font-family: Arial, Regular, sans-serif;
+    color: rgb(87, 87, 87);
+    
+    
+
+
+}
+
+a:hover {
+    color: red;
+    transition: 0.5s;
+  }
+
+
+  .baskervville-regular {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .baskervville-regular-italic {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+#blink_text{
+  animation-name: blink;
+  width: 280px;
+  animation-duration: 1.5s;
+  animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink{
+  0%{color: rgb(87, 87, 87);}
+  50%{color: rgb(255, 255, 255);}
+  100%{color: rgb(87, 87, 87);}
+}
